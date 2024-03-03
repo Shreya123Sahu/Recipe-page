@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+
+}
+
+/* .content{
+    margin: 0;
+    
+} */
+.outer {
+    margin: 80px auto;
+    padding: 20px 20px;
+    width: 550px;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+}
+
+.outer img {
+    width: 100%;
+    border-radius: 20px;
+
+}
+
+h1 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: hsl(30, 10%, 34%);
+
+}
+
+h2 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: hsl(14, 45%, 36%);
+
+}
+
+.prepation h4 {
+
+    font-family: "Outfit", sans-serif;
+
+    font-weight: 600;
+    font-style: normal;
+    color: hsl(332, 51%, 32%);
+}
+
+.first {
+    /* background-color: white; */
+    padding: 10px;
+
+}
+
+p {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.prepation {
+    padding: 10px;
+
+    border-radius: 20px;
+    background-color: hsl(330, 100%, 98%);
+}
+
+.prepation ul {
+    padding: 10px 40px;
+}
+
+.ingredients {
+    padding: 10px;
+}
+
+.instructions {
+    padding: 20px;
+}
+.nutrition {
+    padding: 20px;
+}
+
+ul,
+ol {
+    padding: 10px;
+}
+ol{
+    font-size: 10px;
+
+    list-style:decimal;
+    /* list-style: disc yellow; */
+}
+.nutrition p{
+    font-size: 10px;
+}
+table tr td,th{
+   padding: 10px 100px;
+}
+th{
+    color: hsl(14, 45%, 36%);
+
+}
+@media (max-width:375px) {
+    body{
+        /* height: 100vh; */
+        background-color:white ;
+    }
+    .outer{
+        margin: 0;
+        /* padding: 30px; */
+        width: 500px;
+        font-size: 25px;
+    }
+    .outer p{
+        font-size: 25px;
+
+    }
+    .outer img{
+        border-radius: 0px;
+        /* padding: 0; */
+          
+    }
+    .prepation ul {
+        padding: 10px 40px;
+    }
+    
+    .ingredients {
+        padding: 10px;
+    }
+    
+    .instructions {
+        padding: 20px;
+    }
+    .nutrition {
+        padding: 20px;
+    }
+    
+    ul,
+    ol {
+        padding: 10px;
+        font-size: 25px;
+    }
+    table tr td,th{
+        padding: 10px 68px;
+     }
+
+}
